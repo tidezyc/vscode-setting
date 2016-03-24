@@ -1,0 +1,51 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "cmd+alt+l",
+        "command": "editor.action.format",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+shift+down",
+        "command": "editor.action.moveLinesDownAction",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+shift+up",
+        "command": "editor.action.moveLinesUpAction",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+up",
+        "command": "editor.action.smartSelect.grow",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+down",
+        "command": "editor.action.smartSelect.shrink",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+d",
+        "command": "editor.action.copyLinesDownAction",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+backspace",
+        "command": "editor.action.deleteLines",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+{",
+        "command": "workbench.action.navigateBack"
+    },
+    {
+        "key": "cmd+}",
+        "command": "workbench.action.navigateForward"
+    },
+    { "key": "cmd+e",           "command": "workbench.files.action.workingFilesPicker" },
+    { "key": "cmd+o",                 "command": "workbench.action.quickOpen" },
+    { "key": "shift+cmd+d",           "command": "workbench.view.debug" },
+    { "key": "shift+cmd+e",           "command": "workbench.view.explorer" },
+    { "key": "ctrl+shift+g",          "command": "workbench.view.git" }
+]
